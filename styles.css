@@ -7,7 +7,40 @@ h1 {
     color: white;
     font-size: 60px;
 }
-/* Start here by styling the main div section */
+
 .main {
+    background-color: beige;
+}
+
+.main {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: fit-content;
     
 }
+#yes {
+    padding: 50px;
+}
+
+#no {
+    padding: 50px;
+}
+
+#yes:hover::after {
+    content: "?";
+}
+
+#no:hover::after {
+    content: "?";
+}
+
+#no:active:after {
+    content: "💀"
+}
+
+#yes:active::after {
+    content: "🐵";
+}
+
